@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!61 &736064759 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1179700733216458749, guid: e379d28ad2e17aa45b87f7c7f21cee24,
+    type: 3}
+  m_PrefabInstance: {fileID: 3399334489209138012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753710146
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6394832962183416043, guid: e379d28ad2e17aa45b87f7c7f21cee24,
+        type: 3}
+      propertyPath: boxCollider
+      value: 
+      objectReference: {fileID: 736064759}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
