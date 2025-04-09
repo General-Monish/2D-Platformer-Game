@@ -18,8 +18,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        float horizontalInput = Input.GetAxisRaw("Horizontal"); // for left right input
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput)); // mathf for no negative values
 
         Vector3 scale = transform.localScale;
 
