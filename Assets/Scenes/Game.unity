@@ -123,12 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!61 &736064759 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 1179700733216458749, guid: e379d28ad2e17aa45b87f7c7f21cee24,
-    type: 3}
-  m_PrefabInstance: {fileID: 3399334489209138012}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753710146
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +134,7 @@ GameObject:
   - component: {fileID: 753710149}
   - component: {fileID: 753710148}
   - component: {fileID: 753710147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +248,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.12, z: 0}
-  m_LocalScale: {x: 5, y: 1, z: 2}
+  m_LocalScale: {x: 20, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -414,11 +408,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6394832962183416043, guid: e379d28ad2e17aa45b87f7c7f21cee24,
-        type: 3}
-      propertyPath: boxCollider
-      value: 
-      objectReference: {fileID: 736064759}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
