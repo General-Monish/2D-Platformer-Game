@@ -86,6 +86,6 @@ public class PlayerController : MonoBehaviour
         {
             return false;
         }
-    }
+    } // checking Onground using Raycast
 
 }
