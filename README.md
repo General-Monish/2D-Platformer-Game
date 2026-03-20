@@ -1,2 +1,2 @@
-ttgfygytyf6rrfgdyd# 2D-Platformer-Game
+ttgfygytyf6fgdyd# 2D-Platformer-Game
 The 2D platformer game to be forked something like mario its a clean repo made for LTS version
